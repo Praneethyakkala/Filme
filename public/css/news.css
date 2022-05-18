@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+}
+.rightDis{
+    width: 50%;
+    height: 300px;
+    padding: 40px;
+    padding-left: 60px;
+    align-items: center;
+    margin: 100px 37%;
+    background-color: #FFF0D8;
+    font-size: 1.2rem;
+    text-align: center;
+    box-shadow: 2px 2px 11px 2px rgb(173, 131, 75);
+  }
+  img.rightPic{
+    width: 25%;
+    height: 55%;
+    position: absolute;
+    margin:0rem;
+    left: 14%;
+    top: 23%;
+    background-color: rgba(30, 30, 30, 0.6);
+  border-radius: 20px;
+  backdrop-filter: blur(3px);
+  border: 2px solid rgba(255,255,255,0.2);
+  }
+  .right{
+    content: center;
+    position: relative;
+  }
+  .menu {
+    background-color: black;
+    height: 78px;
+    
+}

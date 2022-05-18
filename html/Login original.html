@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  
+  .menu {
+    background-color: black;
+    height: 78px;
+    
+}
+
+nav{
+
+    display: flex;
+    padding: 2%,6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav img{
+    width: 220px;
+    margin-top: -70px;
+    margin-left: -20px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.nav-links ul li{
+     
+    list-style: none;
+    display: inline-block;
+    padding: 8px 20px;
+    position: relative;
+    top: -35px;
+    right: 50px;
+}
+.logo{
+    float: left;
+  margin-top: -120px;
+}
+
+
+.nav-links ul li a{
+
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.nav-links ul li.home a{
+    color: orange;
+}
+.nav-links ul li a:hover {
+    
+    color: orange;
+} 
+        .background{
+            background-image: url("Pictures/laura-ockel-uC0VwiB9UmU-unsplash.jpg");
+        }
+
+        .box{
+            background-color: orange;
+            height: 500px;
+            width: 800px;
+            margin-top: 110px;
+            margin-left: 350px;
+            
+            position: absolute;
+        }
+        .inbox{
+            background-color: white;
+            height: 500px;
+            width: 400px;
+            margin-top: 0px;
+            margin-left: 0px;
+            position: absolute;
+        }
+        .first{
+            text-align: center;
+            font-weight: bold;
+        
+            font-size: 40px;
+            padding-top: -100px;
+        }
+        .facebook{
+            position: absolute;
+            align-items: center;
+            margin-left: 135px;
+        }
+        .google{
+            position: absolute;
+            align-items: center;
+            margin-left: 210px;
+
+        }
+        .second{
+            text-align: center;
+            font-size: 25px;
+            margin-top: 115px;
+        }
+        .signup{
+           float: right;
+           position: relative; right: 150px;
+           font-weight: bold;
+        
+        font-size: 40px;
+        padding-top: -100px;
+        }
+
+        h1{
+            margin: 0;
+            padding: 0 0 20px;
+            text-align: center;
+            font-size: 22px;
+        }
+        .adv {
+            margin-left: 20px;
+        }
+        .adv p{
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+        }
+
+        .adv input{
+            width: 100%;
+            margin-bottom: 20px;
+            padding-left: 10px;
+        }
+
+        .adv input[type="text"], input[type="password"]
+        {
+            border: none;
+            border-bottom: 1px solid orange;
+            width: 280px;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: #fff;
+            font-size: 16px;
+            margin-left: 50px;
+
+        }
+        .adv input[type="submit"]
+        {
+            border: none;
+            outline: none;
+            height: 40px;
+            background: orange;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 50px;
+            width: 50%;
+            margin-left: 100px;
+        }
+        
+        .logo{
+            margin-left: 380px;
+        }
+
+
+        
+        
+    </style>
+</head>
+<body class="background">
+    <div class="menu">
+      
+    
+        <nav>
+          
+            <div class="nav-links">
+                <img src="Pictures/FILM(5).png" alt="" class="logo">  
+                <ul>
+                    <li class="home"><a href="">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/News.html">News</a></li>
+                    <li><a href="http://127.0.0.1:5500/Login.html?">Login</a></li>
+                    <li><a href="http://127.0.0.1:5500/signup.html">Signup</a></li>
+                </ul>
+                
+            </div>
+        
+        </nav>
+    </div>
+    
+    
+    
+    
+    <div class="box">
+        
+
+        
+        <div class="inbox">
+          <p class="first">
+              Sign in
+          </p>
+          <div>
+          <img class="facebook" src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/>
+          <img class="google" src="https://img.icons8.com/fluency/48/000000/google-logo.png"/>
+          </div>
+          <p class="second">
+              or
+          </p>
+          <form class="adv"> 
+              <p>Username</p>
+              <input type="text" name="" placeholder="Enter username">
+              <p>Password</p>
+              <input type="text" name="" placeholder="Enter Password">
+              <input type="Submit" name="" value="Login">
+          </form>
+        </div>
+        <img class="logo" src="pictures/FILM(5).png" alt="">
+
+    </div>
+
+</body>
+</html>
